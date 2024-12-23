@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-primary text-textPrimary;
+}
+
+.nav-link {
+  @apply hover:text-secondary transition-colors duration-300;
+}
+
+.btn-primary {
+  @apply px-6 py-3 bg-secondary text-white rounded-lg hover:bg-accent transition-all duration-300 shadow-sm hover:shadow-md;
+}
+
+.section-title {
+  @apply text-3xl md:text-4xl font-bold text-textPrimary mb-8 relative;
+}
+
+.section-title::after {
+  content: '';
+  @apply absolute bottom-0 left-0 w-20 h-1 bg-secondary rounded-full;
+}
+
+.card {
+  @apply bg-white p-6 rounded-xl shadow-astra hover:translate-y-[-5px] transition-all duration-300;
+}
