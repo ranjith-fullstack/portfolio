@@ -13,7 +13,7 @@ export const projects = [
     image: 'https://img.freepik.com/free-photo/portrait-man-going-out-shopping-various-consumer-goods_23-2151669824.jpg?t=st=1734937640~exp=1734941240~hmac=9c0db2b172bf4a03092a3603bdd364d5984dc70d11aee0abc7978bc6ccdbee74&w=996',
     technologies: ['React', 'Firebase', 'Tailwind CSS',],
     github: 'https://github.com/ranjith-fullstack/retail-management-full-website',
-    live: 'https://example.com',
+    live: 'https://ranjith-fullstack.github.io/retail-management-system/',
   },
   {
     title: 'Artist Management App',
